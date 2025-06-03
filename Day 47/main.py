@@ -39,9 +39,9 @@ if price_as_float < BUY_PRICE:
 
     with smtplib.SMTP("smtp.gmail.com","587") as connection:
         connection.starttls()
-        result = connection.login("example@gmail.com", "Your_password")
+        result = connection.login("muhammadismaeelsaghar@gmail.com", "gjfj csqr ujro jklo")
         connection.sendmail(
-            from_addr="example.com",
-            to_addrs='example.com',
+            from_addr="muhammadismaeelsaghar@gmail.com",
+            to_addrs='isaghar61@gmail.com',
             msg=f"Subject:Amazon Price Alert!\n\n{message}\n{url}".encode("utf-8")
         )
